@@ -1,0 +1,25 @@
+[class*='col-'] {
+  height: 20px;
+  background: pink;
+  border: 1px solid #000;
+}
+
+.black {
+  background: #000;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.white{
+  background: white;
+}
+
+.brown {
+ background: brown;
+}
+
+.pink {
+   background: pink;
+}
