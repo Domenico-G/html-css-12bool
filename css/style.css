@@ -1,0 +1,26 @@
+[class*='col-'] {
+  height: 200px;
+  background: pink;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 200px;
+}
+
+[class*='col-'] .container {
+  padding: 10px;
+}
+
+[class*='col-'] .container [class*='col-'] {
+  line-height: normal;
+  position: relative;
+  height: 180px;
+  background: lightcoral;
+  border: 1px solid #fff;
+}
+
+[class*='col-'] .container [class*='col-'] div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
